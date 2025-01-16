@@ -1,18 +1,22 @@
 {
-    "name": "tab-news-clone",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "next dev"
-    },
-    "author": "Dereck Portela",
-    "license": "MIT",
-    "dependencies": {
-      "next": "^13.1.6",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0"
-    }
+  "name": "tab-news-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "author": "Dereck Portela",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
-  
+}
